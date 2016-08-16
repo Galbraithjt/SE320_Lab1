@@ -136,7 +136,7 @@ namespace SE320_Lab1
                     Point pnt2 = new Point(x2, y2);
                     Console.WriteLine(pnt1.display() + pnt2.display());
                     StraightLine stl = new StraightLine(pnt1, length, direction);
-                    Console.WriteLine(pnt1.display() + pnt2.display() + stl.display());
+                    Console.WriteLine(stl.display());
                     exception = false;
                 }
                 catch (Exception e)

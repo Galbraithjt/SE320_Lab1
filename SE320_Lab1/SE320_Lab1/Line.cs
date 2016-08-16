@@ -39,7 +39,7 @@ namespace SE320_Lab1
 
         public string display() // display method
         {
-            return PointA.display() + " " + PointB.display() + " Length is" + Convert.ToString(calcLength());
+            return PointA.display() + PointB.display() + " Length is " + Convert.ToString(calcLength());
         } // end display method
     } // end class
 } // end namespace

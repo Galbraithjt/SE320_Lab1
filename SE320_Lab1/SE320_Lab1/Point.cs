@@ -71,7 +71,7 @@ namespace SE320_Lab1
 
         public string display()
         {
-            return ("(" + Xpoint + "," + Ypoint +")" );
+            return ("(" + Xpoint + "," + Ypoint +") " );
         }
 
     } // end class
